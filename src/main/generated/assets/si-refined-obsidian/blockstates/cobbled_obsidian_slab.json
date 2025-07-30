@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "si-refined-obsidian:block/cobbled_obsidian_slab"
+    },
+    "type=double": {
+      "model": "si-refined-obsidian:block/cobbled_obsidian"
+    },
+    "type=top": {
+      "model": "si-refined-obsidian:block/cobbled_obsidian_slab_top"
+    }
+  }
+}

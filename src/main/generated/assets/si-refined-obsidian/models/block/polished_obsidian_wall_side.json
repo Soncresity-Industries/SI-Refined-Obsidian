@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "si-refined-obsidian:block/polished_obsidian"
+  }
+}

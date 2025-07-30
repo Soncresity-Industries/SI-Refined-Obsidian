@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "si-refined-obsidian:block/obsidian_tiles",
+    "side": "si-refined-obsidian:block/obsidian_tiles",
+    "top": "si-refined-obsidian:block/obsidian_tiles"
+  }
+}

@@ -1,0 +1,6 @@
+// 1.21.1	2025-07-30T19:54:44.9336566	SI: Refined Obsidian/Tags for minecraft:block
+a70641cc321d01fad1d05d33fe60e2d71b280e01 data\minecraft\tags\block\mineable\pickaxe.json
+a70641cc321d01fad1d05d33fe60e2d71b280e01 data\minecraft\tags\block\needs_diamond_tool.json
+47ab850007373d8f734e4e043a726b3bee1dda01 data\minecraft\tags\block\walls.json
+5db477cdaef7f06ebc42f4deeeca35f122683164 data\minecraft\tags\block\slabs.json
+b4d7f14489b1e7ab2edd8b557331369e25b1ec59 data\minecraft\tags\block\stairs.json

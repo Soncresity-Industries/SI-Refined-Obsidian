@@ -14,7 +14,7 @@ public class ModRegistryProvider extends FabricDynamicRegistryProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup, Entries entries) {
-        entries.addAll(wrapperLookup.getOrThrow(RegistryKeys.TRIM_MATERIAL));
+        entries.addAll(wrapperLookup.getWrapperOrThrow(RegistryKeys.TRIM_MATERIAL));
     }
 
     @Override

@@ -6,8 +6,6 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
@@ -57,14 +55,13 @@ public class ModBlocks {
 
     //Registries
     private static Block registerBlock(String name, Block block) {
-        Block registeredBlock = Registry.register(Registries.BLOCK, Identifier.of(RefinedObsidian.MOD_ID, name), block);
-        registerBlockItem(name, registeredBlock);
-        return registeredBlock;
+        registerBlockItem(name, block);
+        return Registry.register(Registries.BLOCK, Identifier.of(RefinedObsidian.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block){
         return Registry.register(Registries.ITEM, Identifier.of(RefinedObsidian.MOD_ID, name),
-                new BlockItem(block, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RefinedObsidian.MOD_ID, name)))));
+                new BlockItem(block, new Item.Settings()));
     }
 
     public static void registerModBlocks() {

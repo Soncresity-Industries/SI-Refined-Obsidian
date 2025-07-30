@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "si-refined-obsidian:obsidian_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "si-refined-obsidian:obsidian_brick_wall"
+  }
+}

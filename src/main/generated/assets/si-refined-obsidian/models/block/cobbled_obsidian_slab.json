@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "si-refined-obsidian:block/cobbled_obsidian",
+    "side": "si-refined-obsidian:block/cobbled_obsidian",
+    "top": "si-refined-obsidian:block/cobbled_obsidian"
+  }
+}

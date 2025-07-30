@@ -3,7 +3,7 @@ package dev.soncresityindustries.refinedobsidian.trim;
 import dev.soncresityindustries.refinedobsidian.RefinedObsidian;
 import dev.soncresityindustries.refinedobsidian.item.ModItems;
 import net.minecraft.item.Item;
-import net.minecraft.item.equipment.trim.ArmorTrimMaterial;
+import net.minecraft.item.trim.ArmorTrimMaterial;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.RegistryKey;
@@ -23,13 +23,13 @@ public class ModTrimMaterials {
 
     public static void bootstrap(Registerable<ArmorTrimMaterial> registerable) {
         register(registerable, OBSIDIAN_DUST, Registries.ITEM.getEntry(ModItems.OBSIDIAN_DUST),
-                Style.EMPTY.withColor(TextColor.fromRgb(0x350657)));
+                Style.EMPTY.withColor(TextColor.fromRgb(0x350657)), 0.95f);
     }
 
-//0.95f
+
     private static void register(Registerable<ArmorTrimMaterial> registerable, RegistryKey<ArmorTrimMaterial> armorTrimKey,
-                                 RegistryEntry<Item> item, Style style) {
-        ArmorTrimMaterial trimMaterial = new ArmorTrimMaterial(armorTrimKey.getValue().getPath(), item, Map.of(),
+                                 RegistryEntry<Item> item, Style style, float itemModelIndex) {
+        ArmorTrimMaterial trimMaterial = new ArmorTrimMaterial(armorTrimKey.getValue().getPath(), item, itemModelIndex, Map.of(),
                 Text.translatable(Util.createTranslationKey("trim_material", armorTrimKey.getValue())).fillStyle(style));
 
         registerable.register(armorTrimKey, trimMaterial);
