@@ -1,80 +1,76 @@
 package dev.soncresityindustries.refinedobsidian.block;
 
 import dev.soncresityindustries.refinedobsidian.RefinedObsidian;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.*;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
+import dev.soncresityindustries.refinedobsidian.items.ModItems;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
+
+import java.util.function.Supplier;
 
 public class ModBlocks {
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, RefinedObsidian.MODID);
+
     //Bricks
-    public static final Block OBSIDIAN_BRICKS = registerBlock("obsidian_bricks",
-            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
-    public static final Block OBSIDIAN_BRICK_STAIRS = registerBlock("obsidian_brick_stairs",
-            new StairsBlock(OBSIDIAN_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(OBSIDIAN_BRICKS)));
-    public static final Block OBSIDIAN_BRICK_SLAB = registerBlock("obsidian_brick_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN_BRICKS)));
-    public static final Block OBSIDIAN_BRICK_WALL = registerBlock("obsidian_brick_wall",
-            new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN_BRICKS).solid()));
-    public static final Block CRACKED_OBSIDIAN_BRICKS = registerBlock("cracked_obsidian_bricks",
-            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
+    public static final RegistryObject<Block> OBSIDIAN_BRICKS = registerBlock("obsidian_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
+    public static final RegistryObject<Block> OBSIDIAN_BRICK_STAIRS = registerBlock("obsidian_brick_stairs",
+            () -> new StairBlock(OBSIDIAN_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(OBSIDIAN_BRICKS.get())));
+    public static final RegistryObject<Block> OBSIDIAN_BRICK_SLAB = registerBlock("obsidian_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(OBSIDIAN_BRICKS.get())));
+    public static final RegistryObject<Block> OBSIDIAN_BRICK_WALL = registerBlock("obsidian_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(OBSIDIAN_BRICKS.get())));
+    public static final RegistryObject<Block> CRACKED_OBSIDIAN_BRICKS = registerBlock("cracked_obsidian_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
     //Tiles
-    public static final Block OBSIDIAN_TILES = registerBlock("obsidian_tiles",
-            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
-    public static final Block OBSIDIAN_TILE_STAIRS = registerBlock("obsidian_tile_stairs",
-            new StairsBlock(OBSIDIAN_TILES.getDefaultState(), FabricBlockSettings.copyOf(OBSIDIAN_TILES)));
-    public static final Block OBSIDIAN_TILE_SLAB = registerBlock("obsidian_tile_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(OBSIDIAN_TILES)));
-    public static final Block OBSIDIAN_TILE_WALL = registerBlock("obsidian_tile_wall",
-            new WallBlock(FabricBlockSettings.copyOf(OBSIDIAN_TILES).solid()));
-    public static final Block CRACKED_OBSIDIAN_TILES = registerBlock("cracked_obsidian_tiles",
-            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
+    public static final RegistryObject<Block> OBSIDIAN_TILES = registerBlock("obsidian_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
+    public static final RegistryObject<Block> OBSIDIAN_TILE_STAIRS = registerBlock("obsidian_tile_stairs",
+            () -> new StairBlock(OBSIDIAN_TILES.get().defaultBlockState(), BlockBehaviour.Properties.copy(OBSIDIAN_TILES.get())));
+    public static final RegistryObject<Block> OBSIDIAN_TILE_SLAB = registerBlock("obsidian_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(OBSIDIAN_TILES.get())));
+    public static final RegistryObject<Block> OBSIDIAN_TILE_WALL = registerBlock("obsidian_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(OBSIDIAN_TILES.get())));
+    public static final RegistryObject<Block> CRACKED_OBSIDIAN_TILES = registerBlock("cracked_obsidian_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
     //Polished
-    public static final Block POLISHED_OBSIDIAN = registerBlock("polished_obsidian",
-            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
-    public static final Block POLISHED_OBSIDIAN_STAIRS = registerBlock("polished_obsidian_stairs",
-            new StairsBlock(POLISHED_OBSIDIAN.getDefaultState(), FabricBlockSettings.copyOf(POLISHED_OBSIDIAN)));
-    public static final Block POLISHED_OBSIDIAN_SLAB = registerBlock("polished_obsidian_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(POLISHED_OBSIDIAN)));
-    public static final Block POLISHED_OBSIDIAN_WALL = registerBlock("polished_obsidian_wall",
-            new WallBlock(FabricBlockSettings.copyOf(POLISHED_OBSIDIAN).solid()));
+    public static final RegistryObject<Block> POLISHED_OBSIDIAN = registerBlock("polished_obsidian",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
+    public static final RegistryObject<Block> POLISHED_OBSIDIAN_STAIRS = registerBlock("polished_obsidian_stairs",
+            () -> new StairBlock(POLISHED_OBSIDIAN.get().defaultBlockState(), BlockBehaviour.Properties.copy(POLISHED_OBSIDIAN.get())));
+    public static final RegistryObject<Block> POLISHED_OBSIDIAN_SLAB = registerBlock("polished_obsidian_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(POLISHED_OBSIDIAN.get())));
+    public static final RegistryObject<Block> POLISHED_OBSIDIAN_WALL = registerBlock("polished_obsidian_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(POLISHED_OBSIDIAN.get())));
     //Cobbled
-    public static final Block COBBLED_OBSIDIAN = registerBlock("cobbled_obsidian",
-            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
-    public static final Block COBBLED_OBSIDIAN_STAIRS = registerBlock("cobbled_obsidian_stairs",
-            new StairsBlock(COBBLED_OBSIDIAN.getDefaultState(), FabricBlockSettings.copyOf(COBBLED_OBSIDIAN)));
-    public static final Block COBBLED_OBSIDIAN_SLAB = registerBlock("cobbled_obsidian_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(COBBLED_OBSIDIAN)));
-    public static final Block COBBLED_OBSIDIAN_WALL = registerBlock("cobbled_obsidian_wall",
-            new WallBlock(FabricBlockSettings.copyOf(COBBLED_OBSIDIAN).solid()));
+    public static final RegistryObject<Block> COBBLED_OBSIDIAN = registerBlock("cobbled_obsidian",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
+    public static final RegistryObject<Block> COBBLED_OBSIDIAN_STAIRS = registerBlock("cobbled_obsidian_stairs",
+            () -> new StairBlock(COBBLED_OBSIDIAN.get().defaultBlockState(), BlockBehaviour.Properties.copy(COBBLED_OBSIDIAN.get())));
+    public static final RegistryObject<Block> COBBLED_OBSIDIAN_SLAB = registerBlock("cobbled_obsidian_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(COBBLED_OBSIDIAN.get())));
+    public static final RegistryObject<Block> COBBLED_OBSIDIAN_WALL = registerBlock("cobbled_obsidian_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(COBBLED_OBSIDIAN.get())));
     //Chiseled
-    public static final Block CHISELED_OBSIDIAN = registerBlock("chiseled_obsidian",
-            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
+    public static final RegistryObject<Block> CHISELED_OBSIDIAN = registerBlock("chiseled_obsidian",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
 
-    //Registries
-    private static Block registerBlock(String name, Block block) {
-        registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(RefinedObsidian.MOD_ID, name), block);
+    private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
+        RegistryObject<T> toReturn = BLOCKS.register(name, block);
+        registerBlockItem(name, toReturn);
+        return toReturn;
     }
 
-    private static Item registerBlockItem(String name, Block block){
-        return Registry.register(Registries.ITEM, new Identifier(RefinedObsidian.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings()));
+    private static <T extends Block>RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block){
+        return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
-//    public static final Block DEEPSLATE_BRICK_STAIRS = register(
-//            "deepslate_brick_stairs", new StairsBlock(DEEPSLATE_BRICKS.getDefaultState(), AbstractBlock.Settings.copy(DEEPSLATE_BRICKS))
-//    );
-//
-//    public static Block register(String id, Block block) {
-//        return Registry.register(Registries.BLOCK, id, block);
-//    }
-
-    public static void registerModBlocks() {
-        RefinedObsidian.LOGGER.info("Registering Blocks for " + RefinedObsidian.MOD_ID);
+    public static void register(IEventBus eventBus) {
+        BLOCKS.register(eventBus);
     }
 }
