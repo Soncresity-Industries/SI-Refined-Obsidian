@@ -1,0 +1,31 @@
+{
+  "block.si-refined-obsidian.obsidian_bricks": "Mattone di Ossidiana",
+  "block.si-refined-obsidian.obsidian_brick_slab": "Lastra di mattone di Ossidiana",
+  "block.si-refined-obsidian.obsidian_brick_stairs": "Scale di mattone di Ossidiana",
+  "block.si-refined-obsidian.obsidian_brick_wall": "Muro di mattone di Ossidiana",
+  "block.si-refined-obsidian.cracked_obsidian_bricks": "Mattoni Incrinati di Ossidiana",
+
+  "block.si-refined-obsidian.obsidian_tiles": "Piastrelle di Ossidiana",
+  "block.si-refined-obsidian.obsidian_tile_slab": "Lastra di Piastrelle di Ossidiana",
+  "block.si-refined-obsidian.obsidian_tile_stairs": "Scale di Piastrelle di Ossidiana",
+  "block.si-refined-obsidian.obsidian_tile_wall": "Muro di Piastrelle di Ossidiana",
+  "block.si-refined-obsidian.cracked_obsidian_tiles": "Piastrelle Incrinate di Ossidiana",
+
+  "block.si-refined-obsidian.polished_obsidian": "Ossidiana Levigata",
+  "block.si-refined-obsidian.polished_obsidian_slab": "Lastra di Piastrelle Levigate di Ossidiana",
+  "block.si-refined-obsidian.polished_obsidian_stairs": "Scale di Ossidiana Levigate",
+  "block.si-refined-obsidian.polished_obsidian_wall": "Muro Levigato di Ossidiana",
+
+  "block.si-refined-obsidian.cobbled_obsidian": "Ciottolo di Ossidiana",
+  "block.si-refined-obsidian.cobbled_obsidian_slab": "Ciottolo di Piastrella di Ossidiana",
+  "block.si-refined-obsidian.cobbled_obsidian_stairs": "Ciottolo di Scale di Ossidiana",
+  "block.si-refined-obsidian.cobbled_obsidian_wall": "Ciottolo di Muro di Ossidiana",
+
+  "block.si-refined-obsidian.chiseled_obsidian": "Muro Cesellato di Ossidiana",
+
+  "item.si-refined-obsidian.obsidian_dust": "Polvere di Ossidiana",
+
+  "itemgroup.si-refined-obsidian": "OssidianaRaffinata",
+
+  "trim_material.si-refined-obsidian.obsidian_dust": "Materiale di Polvere di Ossidiana"
+}
