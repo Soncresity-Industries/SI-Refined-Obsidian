@@ -5,13 +5,14 @@ import dev.soncresityindustries.refinedobsidian.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Blocks;
-import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 
 import java.util.List;
+import java.util.function.Consumer;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
 
@@ -23,7 +24,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     }
 
     @Override
-    public void generate(RecipeExporter consumer) {
+    public void generate(Consumer<RecipeJsonProvider> consumer) {
         offerSmelting(consumer, OBSIDIAN_SMELTABLE, RecipeCategory.BUILDING_BLOCKS, Blocks.OBSIDIAN, 0.5F, 400, "obsidian");
         offerBlasting(consumer, OBSIDIAN_BLASTABLE, RecipeCategory.BUILDING_BLOCKS, Blocks.OBSIDIAN, 0.5F, 200, "obsidian");
 

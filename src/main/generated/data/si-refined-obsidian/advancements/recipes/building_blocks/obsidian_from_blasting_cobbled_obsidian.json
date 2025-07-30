@@ -22,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_cobbled_obsidian"
+      "has_cobbled_obsidian",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:obsidian_from_blasting_cobbled_obsidian"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -22,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_cobbled_obsidian"
+      "has_cobbled_obsidian",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:cracked_obsidian_tiles_from_cobbled_obsidian_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

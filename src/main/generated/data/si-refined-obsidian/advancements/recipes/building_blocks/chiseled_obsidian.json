@@ -22,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_cobbled_obsidian_slab"
+      "has_cobbled_obsidian_slab",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "si-refined-obsidian:chiseled_obsidian"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

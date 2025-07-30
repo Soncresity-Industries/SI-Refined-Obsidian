@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "si-refined-obsidian:chiseled_obsidian"
-  }
+  },
+  "show_notification": true
 }

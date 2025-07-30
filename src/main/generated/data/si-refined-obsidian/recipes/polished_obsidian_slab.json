@@ -12,5 +12,6 @@
   "result": {
     "count": 6,
     "item": "si-refined-obsidian:polished_obsidian_slab"
-  }
+  },
+  "show_notification": true
 }

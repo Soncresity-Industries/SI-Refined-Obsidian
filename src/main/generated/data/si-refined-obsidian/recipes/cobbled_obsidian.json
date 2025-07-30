@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "si-refined-obsidian:cobbled_obsidian"
-  }
+  },
+  "show_notification": true
 }

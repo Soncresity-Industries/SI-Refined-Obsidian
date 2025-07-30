@@ -22,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_polished_obsidian"
+      "has_polished_obsidian",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:obsidian_tile_wall_from_polished_obsidian_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

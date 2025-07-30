@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 public class RefinedObsidian implements ModInitializer {
 	public static final String MOD_ID = "si-refined-obsidian";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-	public static final String MOD_VERSION = "1.0.0-1.20.4-fabric";
+	public static final String MOD_VERSION = "1.0.0-1.20.1-fabric";
 
 	@Override
 	public void onInitialize() {
