@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_obsidian_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "si-refined-obsidian:obsidian_tiles"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:obsidian_tile_stairs_from_obsidian_tiles_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_obsidian_tiles"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:obsidian_tile_stairs_from_obsidian_tiles_stonecutting"
+    ]
+  }
+}

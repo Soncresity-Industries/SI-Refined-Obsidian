@@ -1,6 +1,6 @@
-// 1.21.1	2025-07-30T19:54:44.9336566	SI: Refined Obsidian/Tags for minecraft:block
-a70641cc321d01fad1d05d33fe60e2d71b280e01 data\minecraft\tags\block\mineable\pickaxe.json
-a70641cc321d01fad1d05d33fe60e2d71b280e01 data\minecraft\tags\block\needs_diamond_tool.json
-47ab850007373d8f734e4e043a726b3bee1dda01 data\minecraft\tags\block\walls.json
-5db477cdaef7f06ebc42f4deeeca35f122683164 data\minecraft\tags\block\slabs.json
-b4d7f14489b1e7ab2edd8b557331369e25b1ec59 data\minecraft\tags\block\stairs.json
+// 1.20.4	2025-07-30T20:23:31.8249284	SI: Refined Obsidian/Tags for minecraft:block
+33ee9bf3057b35289260607531a709e8af04e64a data\minecraft\tags\blocks\stairs.json
+57983bbf1787339e520c553cd15dead393e3f7dd data\minecraft\tags\blocks\walls.json
+0318a4b61eb2f182a8f0a47479e696d60a54d051 data\minecraft\tags\blocks\slabs.json
+568a8830ee47da8e6c1991204f8b2b65bb4179f7 data\minecraft\tags\blocks\needs_diamond_tool.json
+568a8830ee47da8e6c1991204f8b2b65bb4179f7 data\minecraft\tags\blocks\mineable\pickaxe.json

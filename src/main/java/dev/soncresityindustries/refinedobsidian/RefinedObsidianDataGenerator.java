@@ -1,7 +1,6 @@
 package dev.soncresityindustries.refinedobsidian;
 
 import dev.soncresityindustries.refinedobsidian.datagen.*;
-import dev.soncresityindustries.refinedobsidian.datagen.*;
 import dev.soncresityindustries.refinedobsidian.trim.ModTrimMaterials;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;

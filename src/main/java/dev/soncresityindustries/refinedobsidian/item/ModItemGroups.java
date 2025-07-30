@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     public static final ItemGroup REFINEDOBSIDIAN_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(RefinedObsidian.MOD_ID, "si-refined-obsidian"),
+            new Identifier(RefinedObsidian.MOD_ID, "si-refined-obsidian"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.si-refined-obsidian"))
                     .icon(() -> new ItemStack(ModItems.OBSIDIAN_DUST)).entries((displayContext, entries) -> {
                         //Items

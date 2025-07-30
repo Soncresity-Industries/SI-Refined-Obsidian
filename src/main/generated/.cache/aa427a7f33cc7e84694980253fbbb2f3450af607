@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-30T19:54:44.9326569	SI: Refined Obsidian/Model Definitions
+// 1.20.4	2025-07-30T20:23:31.8239283	SI: Refined Obsidian/Model Definitions
 b78cd7108864a0df44938069aff93dcdf79159bc assets\si-refined-obsidian\blockstates\cobbled_obsidian_stairs.json
 d12d96bac003451438eeff1a34bad108feab206a assets\si-refined-obsidian\models\block\obsidian_bricks.json
 5c835d3da10bd008315f3f1d77ddb30e59859ba4 assets\si-refined-obsidian\models\block\polished_obsidian.json
@@ -35,9 +35,9 @@ ef575ef9438c72971356ab8d3034dcd09541cfc7 assets\si-refined-obsidian\models\block
 54afd58a13af1c313efc98bab572e57c74ad3f8d assets\si-refined-obsidian\models\block\cobbled_obsidian_wall_inventory.json
 83a6682f1710b008725b788397f26dde2a707cd1 assets\si-refined-obsidian\blockstates\polished_obsidian.json
 64867df74df6f9736ca420456804e6917e0b29c7 assets\si-refined-obsidian\models\item\obsidian_brick_wall.json
+6c0770dd1243dce4dbb2e99c66a4632598bca338 assets\si-refined-obsidian\models\block\obsidian_tile_stairs_inner.json
 19e38a6a53ca72c05f134c8b88655aba151ff83e assets\si-refined-obsidian\models\block\polished_obsidian_slab.json
 0c9f3943849f39e3cf3641a5f80157de49c62616 assets\si-refined-obsidian\models\item\polished_obsidian_wall.json
-6c0770dd1243dce4dbb2e99c66a4632598bca338 assets\si-refined-obsidian\models\block\obsidian_tile_stairs_inner.json
 ce1e945accc029e70cb15f11889625572246fdd4 assets\si-refined-obsidian\models\block\cobbled_obsidian.json
 56415e06868534a28b782efab928d6c051f4d8da assets\si-refined-obsidian\models\block\obsidian_brick_stairs_outer.json
 a20cf3233ea94546649fb279bff3714cce905162 assets\si-refined-obsidian\blockstates\cracked_obsidian_tiles.json
@@ -62,8 +62,8 @@ eade33eee4f25d32b691ae0fef489dad2e1bbef9 assets\si-refined-obsidian\models\block
 9c2bc0bd500a9aa7d020d73511c5907d29eb7476 assets\si-refined-obsidian\models\block\polished_obsidian_wall_post.json
 a10e2d73c78dab4acd1d6290ba47136716a6e9e4 assets\si-refined-obsidian\models\item\cobbled_obsidian_slab.json
 756e07b5accb4043cc0fee76b5fdc7dc1087a3c9 assets\si-refined-obsidian\models\block\obsidian_tile_wall_inventory.json
-eb7216d3daeb6831cdab3057f9c71b39ccffff7b assets\si-refined-obsidian\models\item\polished_obsidian.json
 c7d11c38119e8f37a8f141ccca259b2b2214bbaa assets\si-refined-obsidian\blockstates\obsidian_bricks.json
+eb7216d3daeb6831cdab3057f9c71b39ccffff7b assets\si-refined-obsidian\models\item\polished_obsidian.json
 be2772ac19e419dbcb4383ce0b009a2a598c2e4d assets\si-refined-obsidian\models\item\polished_obsidian_stairs.json
 c8bd25f94bc69177737a3753c97a01595f26dbfa assets\si-refined-obsidian\models\block\obsidian_tile_slab.json
 02f603e218b58db763b3270562a906cd4ef5ad00 assets\si-refined-obsidian\models\block\obsidian_brick_wall_side_tall.json

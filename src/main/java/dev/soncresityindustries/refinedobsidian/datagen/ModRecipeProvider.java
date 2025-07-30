@@ -10,18 +10,16 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
-import net.minecraft.registry.RegistryWrapper;
 
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
 
     private static final List<ItemConvertible> OBSIDIAN_SMELTABLE = List.of(ModBlocks.COBBLED_OBSIDIAN);
     private static final List<ItemConvertible> OBSIDIAN_BLASTABLE = List.of(ModBlocks.COBBLED_OBSIDIAN);
 
-    public ModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
-        super(output, registriesFuture);
+    public ModRecipeProvider(FabricDataOutput output) {
+        super(output);
     }
 
     @Override
