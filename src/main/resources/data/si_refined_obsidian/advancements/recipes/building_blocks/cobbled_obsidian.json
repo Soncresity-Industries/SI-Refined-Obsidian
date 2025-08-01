@@ -22,14 +22,13 @@
   },
   "requirements": [
     [
-      "has_obsidian_dust",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_obsidian_dust"
     ]
   ],
   "rewards": {
     "recipes": [
       "si_refined_obsidian:cobbled_obsidian"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }
