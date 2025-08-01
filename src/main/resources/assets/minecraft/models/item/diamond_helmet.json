@@ -56,7 +56,7 @@
       }
     },
     {
-      "model": "si-refined-obsidian:item/diamond_helmet_obsidian_dust_trim",
+      "model": "si_refined_obsidian:item/diamond_helmet_obsidian_dust_trim",
       "predicate": {
         "trim_type": 0.95
       }

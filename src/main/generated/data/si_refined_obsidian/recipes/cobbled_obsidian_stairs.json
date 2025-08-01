@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "si_refined_obsidian:cobbled_obsidian"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "si_refined_obsidian:cobbled_obsidian_stairs"
+  },
+  "show_notification": true
+}
