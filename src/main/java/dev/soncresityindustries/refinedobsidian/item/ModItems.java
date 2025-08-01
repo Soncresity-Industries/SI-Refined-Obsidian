@@ -7,7 +7,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModItems {
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(RefinedObsidian.MODID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(RefinedObsidian.MOD_ID);
 
     public static final DeferredItem<Item> OBSIDIAN_DUST = ITEMS.register("obsidian_dust",
             () -> new Item(new Item.Properties()));

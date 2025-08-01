@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "si_refined_obsidian:block/polished_obsidian",
-    "side": "si_refined_obsidian:block/polished_obsidian",
-    "top": "si_refined_obsidian:block/polished_obsidian"
-  }
-}

@@ -12,16 +12,15 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import java.util.function.Supplier;
 
 public class ModCreativeModeTabs {
-    // This creates the Creative mode tab
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RefinedObsidian.MODID);
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RefinedObsidian.MOD_ID);
 
-    // And here we add items to it and customize it
     public static final Supplier<CreativeModeTab> REFINED_OBSIDIAN_TAB = CREATIVE_MODE_TABS.register("refined_obsidian_tab", () -> CreativeModeTab.builder()
             .icon(() -> new ItemStack(ModItems.OBSIDIAN_DUST.get()))
             .title(Component.translatable("itemgroup.si_refined_obsidian"))
             .displayItems((params, output) -> {
                 //Items
                 output.accept(ModItems.OBSIDIAN_DUST.get());
+
                 //Blocks
                 //Bricks
                 output.accept(ModBlocks.OBSIDIAN_BRICKS.get());

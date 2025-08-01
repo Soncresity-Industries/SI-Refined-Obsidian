@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "si_refined_obsidian:item/obsidian_dust"
-  }
-}

@@ -13,7 +13,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import java.util.function.Supplier;
 
 public class ModBlocks {
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(RefinedObsidian.MODID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(RefinedObsidian.MOD_ID);
 
     //Bricks
     public static final DeferredBlock<Block> OBSIDIAN_BRICKS = registerBlock("obsidian_bricks",

@@ -12,10 +12,10 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 
-@Mod(RefinedObsidian.MODID)
+@Mod(RefinedObsidian.MOD_ID)
 public class RefinedObsidian {
-    public static final String MODID = "si_refined_obsidian";
-    public static final String MOD_VERSION = "1.0.0-1.21.1-neoforge";
+    public static final String MOD_ID = "si_refined_obsidian";
+    public static final String MOD_VERSION = "1.0.0-1.21.4-neoforge";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public RefinedObsidian(IEventBus modEventBus, ModContainer modContainer) {
