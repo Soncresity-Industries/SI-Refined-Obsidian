@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "si-refined-obsidian:obsidian_brick_slab",
-    "si-refined-obsidian:obsidian_tile_slab",
-    "si-refined-obsidian:polished_obsidian_slab",
-    "si-refined-obsidian:cobbled_obsidian_slab"
+    "si_refined_obsidian:obsidian_brick_slab",
+    "si_refined_obsidian:obsidian_tile_slab",
+    "si_refined_obsidian:polished_obsidian_slab",
+    "si_refined_obsidian:cobbled_obsidian_slab"
   ]
 }

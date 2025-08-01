@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "si_refined_obsidian:block/cobbled_obsidian"
+  }
+}

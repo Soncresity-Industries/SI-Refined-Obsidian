@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "si-refined-obsidian:obsidian_brick_stairs",
-    "si-refined-obsidian:obsidian_tile_stairs",
-    "si-refined-obsidian:polished_obsidian_stairs",
-    "si-refined-obsidian:cobbled_obsidian_stairs"
+    "si_refined_obsidian:obsidian_brick_stairs",
+    "si_refined_obsidian:obsidian_tile_stairs",
+    "si_refined_obsidian:polished_obsidian_stairs",
+    "si_refined_obsidian:cobbled_obsidian_stairs"
   ]
 }
