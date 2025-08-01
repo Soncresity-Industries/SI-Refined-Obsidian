@@ -84,7 +84,7 @@ For detailed crafting recipes, block usage guides, and more examples, visit our 
 
 | Modloader | Minecraft Version | Mod Version | Dependencies | Java Version | Status |
 |:---------:|:-----------------:|:-----------:|:------------:|:------------:|:------:|
-| **Fabric** | **1.20.1** | **1.0.0-1.20.1-fabric** | **Fabric API 0.92.3+** | **17+** | **✅ Released** |
+| **Fabric** | **1.20.1** | **1.0.0-1.20.1-fabric** | **Fabric API 0.92.3+** | **21+** | **✅ Released** |
 | **Fabric** | **1.20.4** | **1.0.0-1.20.4-fabric** | **Fabric API 0.97.2+** | **21+** | **✅ Released** |
 | **Fabric** | **1.21.1** | **1.0.0-1.21.1-fabric** | **Fabric API 0.115.1+** | **21+** | **✅ Released** |
 | **Fabric** | **1.21.4** | **N/A** | **Fabric API 0.119.3+** | **21+** | **⚠️ Planned** |
