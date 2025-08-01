@@ -8,17 +8,17 @@ import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.neoforge.common.NeoForge;
 
 @Mod(RefinedObsidian.MODID)
 public class RefinedObsidian {
     public static final String MODID = "si_refined_obsidian";
-    public static final String MOD_VERSION = "1.0.0-1.20.4-neoforge";
+    public static final String MOD_VERSION = "1.0.0-1.21.1-neoforge";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public RefinedObsidian(IEventBus modEventBus) {
+    public RefinedObsidian(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
 
         ModItems.register(modEventBus);
