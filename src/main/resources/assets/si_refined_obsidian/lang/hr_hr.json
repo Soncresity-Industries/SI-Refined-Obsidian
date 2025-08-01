@@ -1,0 +1,31 @@
+{
+  "block.si_refined_obsidian.obsidian_bricks": "Opsidijanske Cigle",
+  "block.si_refined_obsidian.obsidian_brick_slab": "Ploča od Opsidijanskih Cigli",
+  "block.si_refined_obsidian.obsidian_brick_stairs": "Stepenice od Opsidijanskih Cigli",
+  "block.si_refined_obsidian.obsidian_brick_wall": "Zid od Opsidijanskih Cigli",
+  "block.si_refined_obsidian.cracked_obsidian_bricks": "Napuknute Opsidijanske Cigle",
+
+  "block.si_refined_obsidian.obsidian_tiles": "Opsidijanske Pločice",
+  "block.si_refined_obsidian.obsidian_tile_slab": "Ploča od Opsidijanskih Pločica",
+  "block.si_refined_obsidian.obsidian_tile_stairs": "Stepenice od Opsidijanskih Pločica",
+  "block.si_refined_obsidian.obsidian_tile_wall": "Zid od Opsidijanskih Pločica",
+  "block.si_refined_obsidian.cracked_obsidian_tiles": "Napuknute Opsidijanske Pločice",
+
+  "block.si_refined_obsidian.polished_obsidian": "Polirani Opsidijan",
+  "block.si_refined_obsidian.polished_obsidian_slab": "Polirana Opsidijanska Ploča",
+  "block.si_refined_obsidian.polished_obsidian_stairs": "Polirane Opsidijanske Stepenice",
+  "block.si_refined_obsidian.polished_obsidian_wall": "Polirani Opsidijanski Zid",
+
+  "block.si_refined_obsidian.cobbled_obsidian": "Grubi Opsidijan",
+  "block.si_refined_obsidian.cobbled_obsidian_slab": "Ploča od Grubog Opsidijana",
+  "block.si_refined_obsidian.cobbled_obsidian_stairs": "Stepenice od Grubog Opsidijana",
+  "block.si_refined_obsidian.cobbled_obsidian_wall": "Zid od Grubog Opsidijana",
+
+  "block.si_refined_obsidian.chiseled_obsidian": "Izrezbareni Opsidijan",
+
+  "item.si_refined_obsidian.obsidian_dust": "Prah Opsidijana",
+
+  "itemgroup.si_refined_obsidian": "SI: Ročišćeni Opsidijan",
+
+  "trim_material.si_refined_obsidian.obsidian_dust": "Materijal Praha Opsidijana"
+}

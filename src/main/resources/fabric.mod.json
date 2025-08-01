@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "si-refined-obsidian",
+	"id": "si_refined_obsidian",
 	"version": "${version}",
 	"name": "SI: Refined Obsidian",
 	"description": "A Mod by Soncresity Industries that adds various obsidian-themed items, blocks and armor trims.",
@@ -13,7 +13,7 @@
 		"sources": "https://github.com/Soncresity-Industries/SI-Refined-Obsidian"
 	},
 	"license": "All Rights Reserved",
-	"icon": "assets/si-refined-obsidian/icon.png",
+	"icon": "assets/si_refined_obsidian/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

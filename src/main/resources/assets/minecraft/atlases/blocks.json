@@ -10,7 +10,7 @@
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {
-        "obsidian_dust": "si-refined-obsidian:trims/color_palettes/obsidian_dust"
+        "obsidian_dust": "si_refined_obsidian:trims/color_palettes/obsidian_dust"
       }
     }
   ]

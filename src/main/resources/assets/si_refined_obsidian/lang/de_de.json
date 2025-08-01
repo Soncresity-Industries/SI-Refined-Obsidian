@@ -1,0 +1,31 @@
+{
+  "block.si_refined_obsidian.obsidian_bricks": "Obsidianziegel",
+  "block.si_refined_obsidian.obsidian_brick_slab": "Obsidianziegelstufe",
+  "block.si_refined_obsidian.obsidian_brick_stairs": "Obsidianziegeltreppe",
+  "block.si_refined_obsidian.obsidian_brick_wall": "Obsidianziegelmauer",
+  "block.si_refined_obsidian.cracked_obsidian_bricks": "Rissige Obsidianziegel",
+
+  "block.si_refined_obsidian.obsidian_tiles": "Obsidianfliesen",
+  "block.si_refined_obsidian.obsidian_tile_slab": "Obsidianfliesenstufe",
+  "block.si_refined_obsidian.obsidian_tile_stairs": "Obsidianfliesentreppe",
+  "block.si_refined_obsidian.obsidian_tile_wall": "Obsidianfliesenmauer",
+  "block.si_refined_obsidian.cracked_obsidian_tiles": "Rissige Obsidianfliesen",
+
+  "block.si_refined_obsidian.polished_obsidian": "Polierter Obsidian",
+  "block.si_refined_obsidian.polished_obsidian_slab": "Polierte Obsidianstufe",
+  "block.si_refined_obsidian.polished_obsidian_stairs": "Polierte Obsidiantreppe",
+  "block.si_refined_obsidian.polished_obsidian_wall": "Polierte Obsidianmauer",
+
+  "block.si_refined_obsidian.cobbled_obsidian": "Bruchobsidian",
+  "block.si_refined_obsidian.cobbled_obsidian_slab": "Bruchobsidianstufe",
+  "block.si_refined_obsidian.cobbled_obsidian_stairs": "Bruchobsidiantreppe",
+  "block.si_refined_obsidian.cobbled_obsidian_wall": "Bruchobsidianmauer",
+
+  "block.si_refined_obsidian.chiseled_obsidian": "Gemeißelter Obsidian",
+
+  "item.si_refined_obsidian.obsidian_dust": "Obsidianstaub",
+
+  "itemgroup.si_refined_obsidian": "SI: Veredelter Obsidian",
+
+  "trim_material.si_refined_obsidian.obsidian_dust": "Obsidianstaub"
+}
