@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "si_refined_obsidian:obsidian_tiles"
+  },
+  "result": {
+    "count": 1,
+    "id": "si_refined_obsidian:obsidian_tile_wall"
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "si_refined_obsidian:cobbled_obsidian"
-  },
-  "result": "si_refined_obsidian:obsidian_tile_slab"
-}
