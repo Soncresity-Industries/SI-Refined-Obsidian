@@ -30,7 +30,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "si-refined-obsidian:cobbled_obsidian"
+              "name": "si_refined_obsidian:cobbled_obsidian"
             }
           ]
         }

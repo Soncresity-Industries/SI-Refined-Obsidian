@@ -1,0 +1,31 @@
+{
+  "block.si_refined_obsidian.obsidian_bricks": "Obsidian Bricks",
+  "block.si_refined_obsidian.obsidian_brick_slab": "Obsidian Brick Slab",
+  "block.si_refined_obsidian.obsidian_brick_stairs": "Obsidian Brick Stairs",
+  "block.si_refined_obsidian.obsidian_brick_wall": "Obsidian Brick Wall",
+  "block.si_refined_obsidian.cracked_obsidian_bricks": "Cracked Obsidian Bricks",
+
+  "block.si_refined_obsidian.obsidian_tiles": "Obsidian Tiles",
+  "block.si_refined_obsidian.obsidian_tile_slab": "Obsidian Tile Slab",
+  "block.si_refined_obsidian.obsidian_tile_stairs": "Obsidian Tile Stairs",
+  "block.si_refined_obsidian.obsidian_tile_wall": "Obsidian Tile Wall",
+  "block.si_refined_obsidian.cracked_obsidian_tiles": "Cracked Obsidian Tiles",
+
+  "block.si_refined_obsidian.polished_obsidian": "Polished Obsidian",
+  "block.si_refined_obsidian.polished_obsidian_slab": "Polished Obsidian Slab",
+  "block.si_refined_obsidian.polished_obsidian_stairs": "Polished Obsidian Stairs",
+  "block.si_refined_obsidian.polished_obsidian_wall": "Polished Obsidian Wall",
+
+  "block.si_refined_obsidian.cobbled_obsidian": "Cobbled Obsidian",
+  "block.si_refined_obsidian.cobbled_obsidian_slab": "Cobbled Obsidian Slab",
+  "block.si_refined_obsidian.cobbled_obsidian_stairs": "Cobbled Obsidian Stairs",
+  "block.si_refined_obsidian.cobbled_obsidian_wall": "Cobbled Obsidian Wall",
+
+  "block.si_refined_obsidian.chiseled_obsidian": "Chiseled Obsidian",
+
+  "item.si_refined_obsidian.obsidian_dust": "Obsidian Dust",
+
+  "itemgroup.si_refined_obsidian": "SI: Refined Obsidian",
+
+  "trim_material.si_refined_obsidian.obsidian_dust": "Obsidian Dust Material"
+}
