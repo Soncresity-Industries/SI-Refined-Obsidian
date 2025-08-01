@@ -14,7 +14,7 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RefinedObsidian.MODID);
 
     public static final RegistryObject<CreativeModeTab> REFINED_OBSIDIAN_TAB = CREATIVE_MODE_TABS.register("refined_obsidian_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.OBSIDIAN_DUST.get()))
-            .title(Component.translatable("itemgroup.si-refined-obsidian"))
+            .title(Component.translatable("itemgroup.si_refined_obsidian"))
             .displayItems((pParameters, pOutput) -> {
                 //Items
                 pOutput.accept(ModItems.OBSIDIAN_DUST.get());

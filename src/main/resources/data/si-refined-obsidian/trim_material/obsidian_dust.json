@@ -1,9 +1,0 @@
-{
-  "asset_name": "obsidian_dust",
-  "description": {
-    "color": "#350657",
-    "translate": "trim_material.si-refined-obsidian.obsidian_dust"
-  },
-  "ingredient": "si-refined-obsidian:obsidian_dust",
-  "item_model_index": 0.95
-}

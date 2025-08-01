@@ -13,7 +13,7 @@ import org.slf4j.Logger;
 
 @Mod(RefinedObsidian.MODID)
 public class RefinedObsidian {
-    public static final String MODID = "si-refined-obsidian";
+    public static final String MODID = "si_refined_obsidian";
     public static final String MOD_VERSION = "1.0.0-1.20.1-forge";
     private static final Logger LOGGER = LogUtils.getLogger();
 
